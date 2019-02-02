@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!login') {
-    	message.reply('Bitch fuck off you think I would actually do that, dude idek why you would try it xD');
+    	message.reply('Bitch fuck off you think I would actually do that, idek why you would try it xD');
   	}
 });
 
