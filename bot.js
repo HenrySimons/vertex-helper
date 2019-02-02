@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'rules') {
+    if (message.content === '!rules') {
     	message.reply('    :large_orange_diamond: General Guidelines:\n -No toxicity, racism, hate-speech, or posting of content that has the aforementioned \n - If you were invited to this discord, that means we trust you and your friends so if you want, feel free to invite them too! The invite code will be the same and will never expire. \n    -Have fun!');
   	}
 });
