@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!rules') {
-    	message.reply('    :large_orange_diamond: General Guidelines:\n -No toxicity, racism, hate-speech, or posting of content that has the aforementioned \n \n - If you were invited to this discord, that means we trust you and your friends so if you want, feel free to invite them too! The invite code will be the \n same and will never expire. \n \n :small_red_triangle: Invite code:  https://discord.gg/AjEezJu \n \n -Have fun!');
+    	message.reply('    :large_orange_diamond: General Guidelines:\n -No toxicity, racism, hate-speech, or posting of content that has the aforementioned \n \n - If you were invited to this discord, that means we trust you and your friends so if you want, feel free to invite them too! The invite code will be \n the same and will never expire. \n \n :small_red_triangle: Invite code:  https://discord.gg/AjEezJu \n \n -Have fun!');
   	}
 });
 
